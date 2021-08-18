@@ -29,7 +29,7 @@ int main()
     // e setando todos os valores para true
     // este vetor ira representar os valores que sao primos (true) ou nao (false)
     
-    #pragma omp parellel num_threads(1)
+    #pragma omp parellel num_threads(2)
     {
     #pragma omp parallel for
     for (int i = 0; i <= n; i++) {
